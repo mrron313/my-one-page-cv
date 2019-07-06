@@ -465,3 +465,31 @@ article p span {
 article p strong {
     font-weight: bold;
 }
+
+.buttons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons li a {
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(28, 184, 65);
+    padding: 10px 20px;
+}
+
+.buttons li a.linkedin{
+	background: #0077B5;
+}
+
+.buttons li a.github{
+	background: #333;
+}
+
+.buttons li a.researchgate{
+	background: #00D3C1;
+}
