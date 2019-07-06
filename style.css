@@ -177,31 +177,26 @@ section:last-child {
 	color: #0b708e;
 }
 
-.sectionContent .skills:first-child{
-	border-bottom: 1px solid #e4e4e4
-}
-
-.sectionContent .skills:last-child{
-	margin-top: 5px
-}
-
 .keySkills {
-	list-style-type: none;
-	-moz-column-count:3;
-	-webkit-column-count:3;
-	column-count:3;
 	margin-bottom: 20px;
 	font-size: 1em;
 	color: #444;
-	display: flex;
-	flex-direction: row;
-	fpage_twolex-wrap: wrap;
-	justify-content: space-between;
 	margin-top: 5px;
 }
 
-.keySkills ul li {
+.frontend_skills{
+	width: 40%;
+	float: left;
+}
+
+.backend_skills{
+	width: 40%;
+	float: left;
+}
+
+.keySkills li {
 	margin-bottom: 3px;
+	margin-left: 20px
 }
 .page_two{
     padding-top: 25px;
