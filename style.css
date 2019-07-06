@@ -466,11 +466,16 @@ article p strong {
     font-weight: bold;
 }
 
+.buttons_section{
+	margin-top: 15px;
+	width: 100%
+}
+
 .buttons {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .buttons li a {
