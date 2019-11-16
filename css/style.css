@@ -499,3 +499,7 @@ article p strong {
 .buttons li a.researchgate{
 	background: #00D3C1;
 }
+
+.buttons li a.medium{
+	background: #000000;
+}
